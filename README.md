@@ -13,9 +13,9 @@ CoronaWhy knowledge-base
 * research and related summaries
 
 ## internal resources
-* new-join guide
+* [new-join](internal/new_join.md) guide
 * content contribution
 
 
 For development see the slack-channel \#content-management
-To contribute content see [the guide](content_guide.md)
+To contribute content see the guide to [add content](internal/add_content.md)
