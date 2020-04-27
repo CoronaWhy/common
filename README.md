@@ -8,6 +8,7 @@ CoronaWhy knowledge-base
 * global- and team-project mission updates
 
 ## external resources
+* [knowledge graph references](external/knowledge_graph_references.md)*
 * websites
 * databases
 * research and related summaries
