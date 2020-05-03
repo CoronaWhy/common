@@ -58,6 +58,10 @@
 - SemRep. It might be a good option if you want something can work work right out of the box.  It is the NLM triple extraction tool built on top of MetaMap. It comes with the usual UMLS license shenanigans and is not necessarily the latest and greatest, but works reasonably well IME. [webpage](https://semrep.nlm.nih.gov)
 - OpenNRE. An open-source and extensible toolkit that provides a unified framework to implement relation extraction models (including few-shot and document-level models). [demosite](http://opennre.thunlp.ai/#/) [github](https://github.com/thunlp/OpenNRE) [paper](https://arxiv.org/abs/1909.13078)
 
+### Relation descriptions, schema standarts
+- MI2CAST.  Minimum Information about a Molecular Interaction CAusal STatement  This checklist defines both the required core information, as well as a comprehensive set of other contextual details valuable to the end user and relevant for reusing and reproducing causal molecular interaction information. [paper](https://www.preprints.org/manuscript/202004.0480/v1) [github](https://github.com/MI2CAST/MI2CAST)
+- BEL. The Biological Expression Language captures causal, correlative, and associative relationships between biological entities along with the experimental/biological context in which they were observed as well as the provenance of the publication from which the relation was reported. [community portal](https://openbel.org)
+
 ### Evaluation
 - BLUE. The Biomedical Language Understanding Evaluation benchmark consists of five different biomedicine text-mining tasks (including NER & RE) with ten corpora. Here, we rely on preexisting datasets because they have been widely used by the BioNLP community as shared tasks. [paper](https://arxiv.org/abs/1906.05474) [github](https://github.com/ncbi-nlp/BLUE_Benchmark)
 
