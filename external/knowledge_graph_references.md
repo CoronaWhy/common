@@ -9,6 +9,9 @@
 ### Talks
 - Natural Language Search with Knowledge Graphs - Trey Grainger, Lucidworks [video](https://www.youtube.com/watch?v=5noi2VM9F-g)
 
+### Reviews
+- Shaoxiong Ji, Shirui Pan et al. A Survey on Knowledge Graphs: Representation, Acquisition and Applications (2020) [paper](https://arxiv.org/abs/2002.00388)
+
 ## Knowledge graphs related to COVID-19
 
 - COVID-19 Research Knowledge Graph. Knowledge graph build from CORD-19 dataset by JPL NASA group [github](https://github.com/nasa-jpl-cord-19/covid19-knowledge-graph)
