@@ -36,6 +36,7 @@
 - BioBERT. BERT trained on Pubmed data by DMIS-lab team. [github](https://github.com/dmis-lab/biobert) [paper](http://doi.org/10.1093/bioinformatics/btz682) [implementations list on paperwithcode](https://www.paperswithcode.com/paper/biobert-a-pre-trained-biomedical-language)
 - SciBERT. A BERT model for scientific text from AI2. [github](https://github.com/allenai/scibert) [paper](https://arxiv.org/abs/1903.10676)
 - CovidBERT. Model CovidBERT trained by DeepSet on AllenAI's CORD19 Dataset of scientific articles about coronaviruses. Impemented as a part of Transformers library [github](https://github.com/huggingface/transformers/blob/master/model_cards/gsarti/covidbert-nli/)
+- BlueBERT. A BERT model pre-trained on PubMed abstracts and clinical notes (MIMIC-III).  Provided by NLM/NCBI BioNLP Research Group [github](https://github.com/ncbi-nlp/bluebert) [paper](https://arxiv.org/abs/1906.05474)
 
 ### Open information extraction
 - Open IE. System from the University of Washington (UW) and Indian Institute of Technology,Delhi (IIT Delhi). System is used by JPL NASA group [github](https://github.com/dair-iitd/OpenIE-standalone)
@@ -44,8 +45,9 @@
 - Another unsupervised approach for open relation extraction task is self-organazing maps: Elena Manishina et al. Unsupervised relation extraction from scientific texts using a self-organizing maps [paper](https://oatao.univ-toulouse.fr/19106/)
 
 ### Named Entity Extraction
-- BERN. BioBERT-based multi-type NER tool that also supports normalization of extracted entities. Build by DMIS-lab [github](https://github.com/dmis-lab/bern) [paper](https://ieeexplore.ieee.org/document/8730332)
 - COVID-19 Annotated Data by SciBiteLabs. Annotated Data for the COVID-19 Open Research Dataset Challenge. [github](https://github.com/SciBiteLabs/CORD19)
+- PubTator collections on COVID-19. Pubtator provides automated annotations of biomedical entities in scientific publications. NLM/NCBI BioNLP Research Group presents recent results of applying PubTator on the literature about COVID-19 and other coronaviruses. In particular, they feature results on two specific data collections: LitCovid and CORD-19. Pubtator annotations are provided for six entity types (gene/protein, drug/chemical, disease, cell type, species and genomic variants) in two formats (BioC JSON and BioC XML). [github](https://github.com/ncbi-nlp/PubTator-Covid19) [site](https://covid19.pubannotation.org)
+- BERN. BioBERT-based multi-type NER tool that also supports normalization of extracted entities. Build by DMIS-lab [github](https://github.com/dmis-lab/bern) [paper](https://ieeexplore.ieee.org/document/8730332)
 - CORD-19-on-FHIR. A Linked Data version of the COVID-19 Open Research Dataset (CORD-19) data. [github](https://github.com/fhircat/CORD-19-on-FHIR)
 - SciSpacy. A full pipeline and models for scientific/biomedical documents NER models. It includes biomedical NER models [website](https://spacy.io) [github](https://github.com/explosion/spaCy) [notebook with NER model](https://github.com/nasa-jpl-cord-19/Biomolecular-Named-Entities/blob/master/SciSpacy%20NER.ipynb)
 
@@ -64,6 +66,9 @@
 ### Relation descriptions, schema standarts
 - MI2CAST.  Minimum Information about a Molecular Interaction CAusal STatement  This checklist defines both the required core information, as well as a comprehensive set of other contextual details valuable to the end user and relevant for reusing and reproducing causal molecular interaction information. [paper](https://www.preprints.org/manuscript/202004.0480/v1) [github](https://github.com/MI2CAST/MI2CAST)
 - BEL. The Biological Expression Language captures causal, correlative, and associative relationships between biological entities along with the experimental/biological context in which they were observed as well as the provenance of the publication from which the relation was reported. [community portal](https://openbel.org)
+
+### Other scientific document processing
+- SciWING. A modern framework from WING-NUS to facilitate Scientific Document Processing. It is built on PyTorch and includes many pre-trained models for fundamental tasks in Scientific Document Processing: Logical Structure Recovery, Header Normalisation, Citation String Parsing, Citation Intent Classification, keyphrase extraction and others. [site](https://www.sciwing.io) [github](https://github.com/abhinavkashyap/sciwing) [paper](https://arxiv.org/abs/2004.03807)
 
 ### Evaluation
 - BLUE. The Biomedical Language Understanding Evaluation benchmark consists of five different biomedicine text-mining tasks (including NER & RE) with ten corpora. Here, we rely on preexisting datasets because they have been widely used by the BioNLP community as shared tasks. [paper](https://arxiv.org/abs/1906.05474) [github](https://github.com/ncbi-nlp/BLUE_Benchmark)
