@@ -81,7 +81,8 @@
 - INDRA (Integrated Network and Dynamical Reasoning Assembler). An an automated model assembly system, funded by DAPRA, draws on natural language processing systems and structured databases to collect mechanistic and causal assertions, represents them in a standardized form (INDRA Statements), and assembles them into various modeling formalisms including causal graphs and dynamical models. [website](http://www.indra.bio) [COVID19 model](https://emmaa.indra.bio/all_statements/covid19/#about)
 
 ## Graph analysis
-- Neo4j Graph Data Science Library.
+- Neo4j Graph Data Science Library. [website](https://neo4j.com/graph-data-science-library/)
+
 
 
 ## Graph embeddings
