@@ -12,6 +12,8 @@
 
 ### Reviews
 - Shaoxiong Ji, Shirui Pan et al. A Survey on Knowledge Graphs: Representation, Acquisition and Applications (2020) [paper](https://arxiv.org/abs/2002.00388)
+- Graph Technology Landscape 2020. Great overview of raising industry of graph technologies. [blog post](https://graphaware.com/graphaware/2020/02/17/graph-technology-landscape-2020.html)
+
 
 ## Knowledge graphs related to COVID-19
 
@@ -81,8 +83,7 @@
 - INDRA (Integrated Network and Dynamical Reasoning Assembler). An an automated model assembly system, funded by DAPRA, draws on natural language processing systems and structured databases to collect mechanistic and causal assertions, represents them in a standardized form (INDRA Statements), and assembles them into various modeling formalisms including causal graphs and dynamical models. [website](http://www.indra.bio) [COVID19 model](https://emmaa.indra.bio/all_statements/covid19/#about)
 
 ## Graph analysis
-- Neo4j Graph Data Science Library. [website](https://neo4j.com/graph-data-science-library/)
-
+- Neo4j Graph Data Science Library. [website](https://neo4j.com/graph-data-science-library/) [github](https://github.com/neo4j/graph-data-science)
 
 
 ## Graph embeddings
