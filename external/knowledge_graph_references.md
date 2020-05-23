@@ -9,6 +9,7 @@
 
 ### Talks
 - Natural Language Search with Knowledge Graphs - Trey Grainger, Lucidworks [video](https://www.youtube.com/watch?v=5noi2VM9F-g)
+- Building a Knowledge Graph with Spark and NLP: How We Recommend Novel Drugs to our Scientists. Talk from AstaZeneca team (one of the BigPharma companies) on Spark+AI Summit 2019 [video](https://youtu.be/EXMI85lC_o4)
 
 ### Reviews
 - Shaoxiong Ji, Shirui Pan et al. A Survey on Knowledge Graphs: Representation, Acquisition and Applications (2020) [paper](https://arxiv.org/abs/2002.00388)
