@@ -5,12 +5,15 @@
 ### Seminars
 - CS 520 Knowledge graph seminar [Course page with video links](https://web.stanford.edu/class/cs520/)
 - Knowledge Graphs to Fight Covid 19 Meetup [First meetup](https://www.youtube.com/watch?v=HkVfGikcjOo) [Second meetup](https://www.youtube.com/watch?v=1-_845yREno)
+- Graphs4Good GraphHack. Community Effort to Build a Knowledge Graph to Fight COVID-19 [video](https://www.youtube.com/watch?v=yYVPvUZkvKQ)
 
 ### Talks
 - Natural Language Search with Knowledge Graphs - Trey Grainger, Lucidworks [video](https://www.youtube.com/watch?v=5noi2VM9F-g)
 
 ### Reviews
 - Shaoxiong Ji, Shirui Pan et al. A Survey on Knowledge Graphs: Representation, Acquisition and Applications (2020) [paper](https://arxiv.org/abs/2002.00388)
+- Graph Technology Landscape 2020. Great overview of raising industry of graph technologies. [blog post](https://graphaware.com/graphaware/2020/02/17/graph-technology-landscape-2020.html)
+
 
 ## Knowledge graphs related to COVID-19
 
@@ -21,6 +24,12 @@
 - Knowledge Graph of COVID-19 Literature. Knowledge graph build by IBM as a part of its Corpus Processing Service. This knowledge graph integrates COVID-19 data from various sources. [Search on graph, data and reports](https://ds-covid19.res.ibm.com/about)
 - BioGrakn Knowledge Graph. Collection of knowledge graphs of biomedical data. Build as demonstation by GraknLabs [github](https://github.com/graknlabs/biograkn) [blog post](https://blog.grakn.ai/biograkn-accelerating-biomedical-knowledge-discovery-with-a-grakn-knowledge-graph-84706768d7d4) [BioGrakn COVID github](https://github.com/graknlabs/biograkn-covid)
 - COVID-19 Knowledge Graph: a computable, multi-modal, cause-and-effect knowledge model of COVID-19 pathophysiology. [paper](https://doi.org/10.1101/2020.04.14.040667) [github](https://github.com/covid19kg/covid19kg)
+
+## Annotated data related to Covid-19
+- COVID-19 Annotated Data by SciBiteLabs. Annotated Data for the COVID-19 Open Research Dataset Challenge. [github](https://github.com/SciBiteLabs/CORD19)
+- PubTator collections on COVID-19. Pubtator provides automated annotations of biomedical entities in scientific publications. NLM/NCBI BioNLP Research Group presents recent results of applying PubTator on the literature about COVID-19 and other coronaviruses. In particular, they feature results on two specific data collections: LitCovid and CORD-19. Pubtator annotations are provided for six entity types (gene/protein, drug/chemical, disease, cell type, species and genomic variants) in two formats (BioC JSON and BioC XML). [github](https://github.com/ncbi-nlp/PubTator-Covid19) [site](https://covid19.pubannotation.org)
+- CORD-19-on-FHIR. A Linked Data version of the COVID-19 Open Research Dataset (CORD-19) data. [github](https://github.com/fhircat/CORD-19-on-FHIR)
+
 
 ## Ontologies and knowledge databases
 - Unified Medical Language System. The UMLS integrates and distributes key terminology, classification and coding standards, and associated resources. The UMLS includes 3 knowledge sources: metathesaurus (terms and codes from many vocabularie), semantic network (semantic types and their relationships), SPECIALIST Lexicon and Lexical Tools: (A large syntactic lexicon of biomedical and general English and tools for normalizing strings, generating lexical variants, and creating indexes.)  [website](https://www.nlm.nih.gov/research/umls/index.html)
@@ -45,10 +54,7 @@
 - Another unsupervised approach for open relation extraction task is self-organazing maps: Elena Manishina et al. Unsupervised relation extraction from scientific texts using a self-organizing maps [paper](https://oatao.univ-toulouse.fr/19106/)
 
 ### Named Entity Extraction
-- COVID-19 Annotated Data by SciBiteLabs. Annotated Data for the COVID-19 Open Research Dataset Challenge. [github](https://github.com/SciBiteLabs/CORD19)
-- PubTator collections on COVID-19. Pubtator provides automated annotations of biomedical entities in scientific publications. NLM/NCBI BioNLP Research Group presents recent results of applying PubTator on the literature about COVID-19 and other coronaviruses. In particular, they feature results on two specific data collections: LitCovid and CORD-19. Pubtator annotations are provided for six entity types (gene/protein, drug/chemical, disease, cell type, species and genomic variants) in two formats (BioC JSON and BioC XML). [github](https://github.com/ncbi-nlp/PubTator-Covid19) [site](https://covid19.pubannotation.org)
 - BERN. BioBERT-based multi-type NER tool that also supports normalization of extracted entities. Build by DMIS-lab [github](https://github.com/dmis-lab/bern) [paper](https://ieeexplore.ieee.org/document/8730332)
-- CORD-19-on-FHIR. A Linked Data version of the COVID-19 Open Research Dataset (CORD-19) data. [github](https://github.com/fhircat/CORD-19-on-FHIR)
 - SciSpacy. A full pipeline and models for scientific/biomedical documents NER models. It includes biomedical NER models [website](https://spacy.io) [github](https://github.com/explosion/spaCy) [notebook with NER model](https://github.com/nasa-jpl-cord-19/Biomolecular-Named-Entities/blob/master/SciSpacy%20NER.ipynb)
 
 ### Weak supervision and relation extration
@@ -75,6 +81,10 @@
 
 ### End-to-end systems
 - INDRA (Integrated Network and Dynamical Reasoning Assembler). An an automated model assembly system, funded by DAPRA, draws on natural language processing systems and structured databases to collect mechanistic and causal assertions, represents them in a standardized form (INDRA Statements), and assembles them into various modeling formalisms including causal graphs and dynamical models. [website](http://www.indra.bio) [COVID19 model](https://emmaa.indra.bio/all_statements/covid19/#about)
+
+## Graph analysis
+- Neo4j Graph Data Science Library. [website](https://neo4j.com/graph-data-science-library/) [github](https://github.com/neo4j/graph-data-science)
+
 
 ## Graph embeddings
 - Heterogeneous Graph Transformer. Graph neural network architecture from Microsoft and University of California. HGT can deal with large-scale heterogeneous and dynamic graphs [paper](https://arxiv.org/abs/2003.01332) [github](https://github.com/acbull/pyHGT)
