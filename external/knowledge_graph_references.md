@@ -9,11 +9,15 @@
 
 ### Talks
 - Natural Language Search with Knowledge Graphs - Trey Grainger, Lucidworks [video](https://www.youtube.com/watch?v=5noi2VM9F-g)
+- Building a Knowledge Graph with Spark and NLP: How We Recommend Novel Drugs to our Scientists. Talk from AstaZeneca team (one of the BigPharma companies) on Spark+AI Summit 2019 [video](https://youtu.be/EXMI85lC_o4)
 
 ### Reviews
 - Shaoxiong Ji, Shirui Pan et al. A Survey on Knowledge Graphs: Representation, Acquisition and Applications (2020) [paper](https://arxiv.org/abs/2002.00388)
 - Graph Technology Landscape 2020. Great overview of raising industry of graph technologies. [blog post](https://graphaware.com/graphaware/2020/02/17/graph-technology-landscape-2020.html)
 
+### Reading list
+- A Reading List of Academic Articles using the Biological Expression Language (BEL) from Charlie Hoyt. It’s divided into the categories of software/visualization tools, algorithms/analytical frameworks, data integration, natural language processing, curation workflows, and downstream applications. [bel-papers](https://cthoyt.com/2020/05/22/bel-papers.html)
+- Generation and Applications of Knowledge Graphs in Systems and Networks Biology. Doctoral thesis of Dr. Charles Tapley Hoyt that was defended on December 3rd, 2019. [pdf](https://github.com/cthoyt/doctoral-thesis/raw/master/main.pdf)
 
 ## Knowledge graphs related to COVID-19
 
@@ -69,9 +73,12 @@
 - SemRep. It might be a good option if you want something can work work right out of the box.  It is the NLM triple extraction tool built on top of MetaMap. It comes with the usual UMLS license shenanigans and is not necessarily the latest and greatest, but works reasonably well IME. [webpage](https://semrep.nlm.nih.gov)
 - OpenNRE. An open-source and extensible toolkit that provides a unified framework to implement relation extraction models (including few-shot and document-level models). [demosite](http://opennre.thunlp.ai/#/) [github](https://github.com/thunlp/OpenNRE) [paper](https://arxiv.org/abs/1909.13078)
 
-### Relation descriptions, schema standarts
+### Relation descriptions, schema standarts and graph processing tools
 - MI2CAST.  Minimum Information about a Molecular Interaction CAusal STatement  This checklist defines both the required core information, as well as a comprehensive set of other contextual details valuable to the end user and relevant for reusing and reproducing causal molecular interaction information. [paper](https://www.preprints.org/manuscript/202004.0480/v1) [github](https://github.com/MI2CAST/MI2CAST)
-- BEL. The Biological Expression Language captures causal, correlative, and associative relationships between biological entities along with the experimental/biological context in which they were observed as well as the provenance of the publication from which the relation was reported. [language tutorial](https://cthoyt.gitbook.io/bel/) [github](https://github.com/pybel/pybel)
+- BEL. The Biological Expression Language captures causal, correlative, and associative relationships between biological entities along with the experimental/biological context in which they were observed as well as the provenance of the publication from which the relation was reported. [community portal](https://openbel.org)
+- PyBEL. Python software package that parses BEL documents, validates their semantics, and facilitates data interchange between common formats and database systems like JSON, CSV, Excel, SQL, CX, and Neo4J. [github](https://github.com/pybel/pybel) [documentation](https://pybel.readthedocs.io/en/latest/)
+- PyBEL-tools. library of functions for analysis of biological networks. [github](https://github.com/pybel/pybel) [PyBEL-Notebooks](https://github.com/pybel/pybel-notebooks)
+- BEL4corona. Code, notebooks, and resources for exploring and analyzing mechanistic knowledge graphs about corona[github](https://github.com/CoronaWhy/bel4corona)
 
 ### Other scientific document processing
 - SciWING. A modern framework from WING-NUS to facilitate Scientific Document Processing. It is built on PyTorch and includes many pre-trained models for fundamental tasks in Scientific Document Processing: Logical Structure Recovery, Header Normalisation, Citation String Parsing, Citation Intent Classification, keyphrase extraction and others. [site](https://www.sciwing.io) [github](https://github.com/abhinavkashyap/sciwing) [paper](https://arxiv.org/abs/2004.03807)
