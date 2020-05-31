@@ -59,11 +59,11 @@
 - Graphene. System outperforms state-of-the-art Open IE systems in the construction of correct n-ary predicate-argument structures. [github](https://github.com/Lambda-3/Graphene) [paper](https://arxiv.org/pdf/1807.11276v1.pdf)
 - Another unsupervised approach for open relation extraction task is self-organazing maps: Elena Manishina et al. Unsupervised relation extraction from scientific texts using a self-organizing maps [paper](https://oatao.univ-toulouse.fr/19106/)
 
-### Named Entity Extraction
+### Named Entity Recognition
 - BERN. BioBERT-based multi-type NER tool that also supports normalization of extracted entities. Build by DMIS-lab [github](https://github.com/dmis-lab/bern) [paper](https://ieeexplore.ieee.org/document/8730332)
 - SciSpacy. A full pipeline and models for scientific/biomedical documents NER models. It includes biomedical NER models [website](https://spacy.io) [github](https://github.com/explosion/spaCy) [notebook with NER model](https://github.com/nasa-jpl-cord-19/Biomolecular-Named-Entities/blob/master/SciSpacy%20NER.ipynb)
 
-### Weak supervision and relation extration
+### Weak supervision and relation extraction
 - Snorkel. The system for programmatically building and managing training data. It is build by team from Stanford unversity, many companies (Google, facebook etc.) are broadly using it [website](https://www.snorkel.org). 
 - Short review of weak supervioson approached to relation extraction task: Alisa Smirnova and Philippe Cudré-Mauroux. 2018. Relation Extraction Using Distant Supervision: A Survey. [paper](https://dl.acm.org/doi/10.1145/3241741)
 - A great example of using weak supervision (snorkel particularly) for biomedical information extraction (including numerical data): Kuleshov, V., Ding, J., Vo, C. et al. A machine-compiled database of genome-wide association studies, 2019 [paper](https://www.nature.com/articles/s41467-019-11026-x) [github](https://github.com/kuleshov/gwaskb)
@@ -82,14 +82,19 @@
 - PyBEL-tools. library of functions for analysis of biological networks. [github](https://github.com/pybel/pybel) [PyBEL-Notebooks](https://github.com/pybel/pybel-notebooks)
 - BEL4corona. Code, notebooks, and resources for exploring and analyzing mechanistic knowledge graphs about corona[github](https://github.com/CoronaWhy/bel4corona)
 
+### Entity linking, entity normalisation, disambiguation, grounding
+- PyOBO. Tools for biological identifiers, names, synonyms, xrefs, hierarchies, relations, and properties through the perspective of Open Biomedical Ontology (OBO). [github](https://github.com/pyobo/pyobo) [blog post](https://cthoyt.com/2020/04/18/ooh-na-na.html)
+- Gilda grounding service.  Grounding of biomedical named entities with contextual disambiguation. Developed by INDRA labs which is part of the Harvard Program in Therapeutic Science (HiTS). [http://grounding.indra.bio](webservice) [github](https://github.com/indralab/gilda)
+- Adeft. Utility for building models to disambiguate acronyms and other abbreviations of biological terms in the scientific literature. Developed by INDRA labs. [github](https://github.com/indralab/adeft) [paper](https://joss.theoj.org/papers/10.21105/joss.01708)
+
 ### Other scientific document processing
 - SciWING. A modern framework from WING-NUS to facilitate Scientific Document Processing. It is built on PyTorch and includes many pre-trained models for fundamental tasks in Scientific Document Processing: Logical Structure Recovery, Header Normalisation, Citation String Parsing, Citation Intent Classification, keyphrase extraction and others. [site](https://www.sciwing.io) [github](https://github.com/abhinavkashyap/sciwing) [paper](https://arxiv.org/abs/2004.03807)
 
 ### Evaluation
 - BLUE. The Biomedical Language Understanding Evaluation benchmark consists of five different biomedicine text-mining tasks (including NER & RE) with ten corpora. Here, we rely on preexisting datasets because they have been widely used by the BioNLP community as shared tasks. [paper](https://arxiv.org/abs/1906.05474) [github](https://github.com/ncbi-nlp/BLUE_Benchmark)
 
-### End-to-end systems
-- INDRA (Integrated Network and Dynamical Reasoning Assembler). An an automated model assembly system, funded by DAPRA, draws on natural language processing systems and structured databases to collect mechanistic and causal assertions, represents them in a standardized form (INDRA Statements), and assembles them into various modeling formalisms including causal graphs and dynamical models. [website](http://www.indra.bio) [COVID19 model](https://emmaa.indra.bio/all_statements/covid19/#about)
+### Libraries
+- INDRA (Integrated Network and Dynamical Reasoning Assembler). An an automated model assembly system, funded by DAPRA, draws on natural language processing systems and structured databases to collect mechanistic and causal assertions, represents them in a standardized form (INDRA Statements), and assembles them into various modeling formalisms including causal graphs and dynamical models. [website](http://www.indra.bio) [COVID19 model](https://emmaa.indra.bio/all_statements/covid19/#about) [github](https://github.com/indralab)
 
 ## Graph analysis
 - Neo4j Graph Data Science Library. [website](https://neo4j.com/graph-data-science-library/) [github](https://github.com/neo4j/graph-data-science)
