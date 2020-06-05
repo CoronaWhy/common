@@ -28,6 +28,8 @@
 - Knowledge Graph of COVID-19 Literature. Knowledge graph build by IBM as a part of its Corpus Processing Service. This knowledge graph integrates COVID-19 data from various sources. [Search on graph, data and reports](https://ds-covid19.res.ibm.com/about)
 - BioGrakn Knowledge Graph. Collection of knowledge graphs of biomedical data. Build as demonstation by GraknLabs [github](https://github.com/graknlabs/biograkn) [blog post](https://blog.grakn.ai/biograkn-accelerating-biomedical-knowledge-discovery-with-a-grakn-knowledge-graph-84706768d7d4) [BioGrakn COVID github](https://github.com/graknlabs/biograkn-covid)
 - COVID-19 Knowledge Graph: a computable, multi-modal, cause-and-effect knowledge model of COVID-19 pathophysiology. [paper](https://doi.org/10.1101/2020.04.14.040667) [github](https://github.com/covid19kg/covid19kg)
+- COVID-19 Disease Map. Knowledge repository of molecular mechanisms of COVID-19 as a broad community-driven effort. [webpage](https://covid.pages.uni.lu) [publication](https://doi.org/10.1038/s41597-020-0477-8) [fairdomhub](https://fairdomhub.org/projects/190)
+- Knowledge Extraction to Assist Scientific Discovery from Corona Virus Literature. Knowledge graph constructed which includes 50,752 Gene nodes, 10,781 Disease nodes, 5,738 Chemical nodes, and 535 Organism nodes. These nodes are connected by 133 relation types including Gene–Chemical–Interaction Relationships, Chemical–Disease Associations, Gene–Disease Associations, Chemical–GO Enrichment Associations and Chemical–Pathway Enrichment Associations. [webpage](http://blender.cs.illinois.edu/covid19/)
 
 ## Annotated data related to Covid-19
 - CORD-19. The Semantic Scholar team at the Allen Institute for AI has partnered with leading research groups to provide CORD-19, a free resource of more than 128,000 scholarly articles about the novel coronavirus for use by the global research community. [official page](https://pages.semanticscholar.org/coronavirus-research) [CORD-19 explorer](https://cord-19.apps.allenai.org/ ) [Kaggle discussion](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge/discussion) [forum](https://discourse.cord-19.semanticscholar.org)
@@ -47,6 +49,12 @@
 
 ## Building knowledge graph, information extraction
 
+### Paper search, filter and scoring
+- Covid-19 Semantic Browser: Browse Covid-19 & SARS-CoV-2 Scientific Papers with Transformers.  an interactive experimental tool leveraging a state-of-the-art language model to search relevant content inside the COVID-19 Open Research Dataset (CORD-19) [github](https://github.com/gsarti/covid-papers-browser)
+- KDCOVID. This tool retrieves papers by measuring similarity between queries and sentences in the full text of papers in CORD19 corpus using a similarity metric derived from BioSentVec. [web-tool](http://kdcovid.nl/) [github](https://github.com/nmonath/kdcovid)
+- SciFact. Dataset & baseline model built by AI2 for fact-checking: Given a corpus of scientific articles and a claim about a scientific finding, a fact-checking model must identify abstracts that support or refute the claim. [paper](https://arxiv.org/abs/2004.14974) [github](https://github.com/allenai/scifact)
+- The Semantic Scholar Search Reranker provided by AI2. [github](https://github.com/allenai/s2search)
+
 ### Language models
 - BioBERT. BERT trained on Pubmed data by DMIS-lab team. [github](https://github.com/dmis-lab/biobert) [paper](http://doi.org/10.1093/bioinformatics/btz682) [implementations list on paperwithcode](https://www.paperswithcode.com/paper/biobert-a-pre-trained-biomedical-language)
 - SciBERT. A BERT model for scientific text from AI2. [github](https://github.com/allenai/scibert) [paper](https://arxiv.org/abs/1903.10676)
@@ -62,6 +70,7 @@
 ### Named Entity Recognition
 - BERN. BioBERT-based multi-type NER tool that also supports normalization of extracted entities. Build by DMIS-lab [github](https://github.com/dmis-lab/bern) [paper](https://ieeexplore.ieee.org/document/8730332)
 - SciSpacy. A full pipeline and models for scientific/biomedical documents NER models. It includes biomedical NER models [website](https://spacy.io) [github](https://github.com/explosion/spaCy) [notebook with NER model](https://github.com/nasa-jpl-cord-19/Biomolecular-Named-Entities/blob/master/SciSpacy%20NER.ipynb)
+- Comprehensive Named Entity Recognition (NER) on CORD-19 with Distant or Weak Supervision. [blog post](https://xuanwang91.github.io/2020-03-20-cord19-ner/)
 
 ### Weak supervision and relation extraction
 - Snorkel. The system for programmatically building and managing training data. It is build by team from Stanford unversity, many companies (Google, facebook etc.) are broadly using it [website](https://www.snorkel.org). 
@@ -106,3 +115,6 @@
 - BioNEV. This work aims to systematically evaluate recent advanced graph embedding techniques on biomedical tasks. Authors compile 5 benchmark datasets for 4 biomedical prediction tasks (see paper for details) and use them to evaluate 11 representative graph embedding methods [paper](https://arxiv.org/pdf/1906.05017.pdf) [github](https://github.com/xiangyue9607/BioNEV)
 - PyTorch-BigGraph. An embedding system from Facebook that incorporates several modifications to traditional multi-relation embedding systems that allow it to scale to graphs with billions of nodes and trillions of edges. [paper](http://arxiv.org/abs/1903.12287) [github](https://github.com/facebookresearch/PyTorch-BigGraph)
 - BioKEEN. A package for training and evaluating biological knowledge graph embeddings built on PyKEEN. [github](https://github.com/smartdataanalytics/biokeen) ([parent package - PyKEEN](https://github.com/smartdataanalytics/pykeen))
+
+## Graph Neural Networks
+- Deep Graph Library (DGL). Python package built for easy implementation of graph neural network model family, on top of existing DL frameworks (e.g. PyTorch, MXNet, Gluon etc.). [website](https://www.dgl.ai) [github](https://github.com/dmlc/dgl) [docs](https://docs.dgl.ai/index.html)
